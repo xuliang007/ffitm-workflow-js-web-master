@@ -1,0 +1,242 @@
+{
+  "tache": {
+    "nextTchMods": [{
+      "often": [
+        {
+          "staffId": "1",
+          "staffName": "admin",
+          "oftenType": "1"
+        },
+        {
+          "staffId": "101",
+          "staffName": "admin2",
+          "oftenType": "1"
+        },
+        {
+          "staffId": "1",
+          "staffName": "admin",
+          "oftenType": "2"
+        },
+        {
+          "staffId": "102",
+          "staffName": "admin3",
+          "oftenType": "2"
+        }
+      ],
+      "notifyCfg": {
+        "mail": {
+          "display": true,
+          "canchange": false,
+          "selected": true
+        },
+        "sms": {
+          "display": true,
+          "canchange": true,
+          "selected": false
+        }
+      },
+      "smsJson": {
+        "display": "0BT",
+        "canchange": "0BT",
+        "selected": "0BF"
+      },
+      "onBeforeCreate": "",
+      "notifyRootOrgValue": "",
+      "defaultStaffNameValue": "",
+      "multiInst": "0",
+      "tchType": "3",
+      "multiType": "",
+      "filterStaffWhere": "",
+      "notifyStaffDisabled": "0BT",
+      "rootOrgValue": "",
+      "rootOrgCanChange": "0BT",
+      "tchName": "问题记录审批",
+      "notifyStaffCanChange": "0BF",
+      "excludePath": "",
+      "onCreateType": "",
+      "rootOrgType": "fix",
+      "defaultStaffType": "fix",
+      "conTchClosed": "1",
+      "onAfterCreate": "",
+      "defaultStaffValue": "1,2,3",
+      "notifyStaffType": "fix",
+      "actionTransferTitle": "转交",
+      "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+      "multiInstMerge": "0",
+      "remark": "",
+      "beginOrgValue": "",
+      "beginOrgType": "fix",
+      "onAfterCreateType": "",
+      "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+      "isAuto": "0BF",
+      "staffCreateType": "2",
+      "notifyStaffValue": "1,2,3",
+      "notifyStaffSelected": "0BT",
+      "notifyStaffCreateType": "2",
+      "mailJson": {
+        "display": "0BT",
+        "canchange": "0BT",
+        "selected": "0BF"
+      },
+      "onCreate": "",
+      "countersignCfg": {
+        "parallel": {
+          "display": false,
+          "checked": true,
+          "text": "²¢ÐÐ"
+        },
+        "serial": {
+          "display": false,
+          "checked": false,
+          "text": "´®ÐÐ"
+        },
+        "display": false,
+        "text": "»áÇ©·½Ê½:"
+      },
+      "tacheAction": "return",
+      "onBeforeCreateType": "",
+      "defaultStaffDisabled": "0BT",
+      "defaultStaffSelected": "0BF",
+      "notifyRootOrgCanChange": "0BT",
+      "rootOrgParam": "",
+      "notifyRootOrgType": "fix",
+      "defaultStaffCanChange": "0BT",
+      "tchNum": "8314",
+      "canSerial": "0BF",
+      "tchMod": "8314"
+    },{
+      "notifyCfg": {
+        "mail": {
+          "display": true,
+          "canchange": true,
+          "selected": false
+        },
+        "sms": {
+          "display": true,
+          "canchange": true,
+          "selected": false
+        }
+      },
+      "smsJson": {
+        "display": "0BT",
+        "canchange": "0BT",
+        "selected": "0BF"
+      },
+      "onBeforeCreate": "",
+      "notifyRootOrgValue": "",
+      "defaultStaffNameValue": "",
+      "multiInst": "1",
+      "tchType": "3",
+      "multiType": "",
+      "filterStaffWhere": "",
+      "notifyStaffDisabled": "0BF",
+      "rootOrgValue": "",
+      "rootOrgCanChange": "0BT",
+      "tchName": "问题记录审批2",
+      "notifyStaffCanChange": "0BT",
+      "excludePath": "8314",
+      "onCreateType": "",
+      "rootOrgType": "fix",
+      "defaultStaffType": "fix",
+      "conTchClosed": "1",
+      "onAfterCreate": "",
+      "defaultStaffValue": "1,2,3",
+      "notifyStaffType": "fix",
+      "actionTransferTitle": "转交",
+      "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+      "multiInstMerge": "0",
+      "remark": "",
+      "beginOrgValue": "",
+      "beginOrgType": "fix",
+      "onAfterCreateType": "",
+      "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+      "isAuto": "0BF",
+      "staffCreateType": "2",
+      "notifyStaffValue": "1,2,3",
+      "notifyStaffSelected": "0BF",
+      "notifyStaffCreateType": "2",
+      "mailJson": {
+        "display": "0BT",
+        "canchange": "0BT",
+        "selected": "0BF"
+      },
+      "onCreate": "",
+      "countersignCfg": {
+        "parallel": {
+          "display": true,
+          "checked": true,
+          "text": "并行"
+        },
+        "serial": {
+          "display": false,
+          "checked": false,
+          "text": "串行"
+        },
+        "display": true,
+        "text": "会签方式"
+      },
+      "tacheAction": "return",
+      "onBeforeCreateType": "",
+      "defaultStaffDisabled": "0BF",
+      "defaultStaffSelected": "0BT",
+      "notifyRootOrgCanChange": "0BT",
+      "rootOrgParam": "",
+      "notifyRootOrgType": "fix",
+      "defaultStaffCanChange": "0BF",
+      "tchNum": "8315",
+      "canSerial": "0BF",
+      "tchMod": "8315"
+    }],
+    "onBeforeFinish": "",
+    "multiInstMerge": "",
+    "globalDefaultStaffCfg": "",
+    "flowWinCfg": "",
+    "nextTchsCanChange": "0BF",
+    "defaultOpinionValue": "",
+    "isAuto": "0",
+    "defaultFlowNameType": "form",
+    "flowValidateMode": {
+      "all": true,
+      "endtask": true,
+      "transfer": true,
+      "run": true,
+      "end": true,
+      "return": true
+    },
+    "isEndTaskAuto": "0BF",
+    "endTaskTitle": "½áÊø»áÇ©",
+    "layerStyle": {
+      "fullScreen": "0",
+      "width": "800",
+      "height": "600"
+    },
+    "isTacheEditable": "0BT",
+    "onAfterFinishType": "",
+    "defaultOpinionType": "",
+    "serialState": "none",
+    "defaultFlowNameValue": "配置流程：$TABLE.TF_CONFIG.SUBMIT_STAFF_NAME.VALUE",
+    "onBeforeFinishType": "",
+    "onFinishType": "",
+    "onFinish": "",
+    "execDesc": "",
+    "opinion": "同意",
+    "opinionType": "SR",
+    "nextTchsValue": null,
+    "nextTchsIsHiddenOther": "0BT",
+    "onAfterFinish": "",
+    "sysFlowWinCfg": {
+      "showattach": true,
+      "showflowname": true,
+      "model": "layer",
+      "showsavesucceed": false
+    },
+    "nextTchsType": "js",
+    "nextTchsIsSelected": "0BT"
+  },
+  "opinion": [
+    {
+      "id": "1",
+      "opinionContent": "不同意"
+    }
+  ]
+}

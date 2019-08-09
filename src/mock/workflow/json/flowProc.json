@@ -1,0 +1,479 @@
+[
+  {
+    "imMsgCnt": "",
+    "image": "/resource/image/ico/tchEnd.gif",
+    "orgName": "组织机构",
+    "isParent": "0",
+    "taster": [{
+      "staffName": "admin",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 09:52:58"
+    }, {
+      "staffName": "admin_2",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 15:59:40"
+    }, {
+      "staffName": "网管系统",
+      "opinion": null,
+      "lastModifyDate": "2018-07-24 17:02:19"
+    }],
+    "receiver": "admin",
+    "isParentShow": "",
+    "tchId": "590000022966",
+    "resultDesc": "同意",
+    "turnInfo": "admin前进到【配置实施人员】",
+    "tchContDesc": "配置实施人员",
+    "doc": [
+      {
+        "attachName": "aaaaaaaaaaaaaaaaaa.sql",
+        "attachAddr": "\\form\\201708\\201778532234231-425.sql",
+        "action": "C"
+      },
+      {
+        "attachName": "增加字段增加字段增加字段增加字段.sql",
+        "attachAddr": "\\form\\201708\\1503969897605_564365833.sql",
+        "action": "C"
+      }
+    ],
+    "receivers": [
+      {
+        "staffName": "admin",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      },{
+        "staffName": "abc",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      }
+    ],
+    "executer": {
+      "staffName": "admin",
+      "phs": "18950330000",
+      "mobile": "12312312312",
+      "tel": "1231231",
+      "orgName": "组织机构",
+      "staffId": null,
+      "staffaName": null,
+      "regionName": "广东"
+    },
+    "disposeDate": "3天3小时3分钟33秒",
+    "finishDate": "2018-07-05 16:08:19",
+    "state": "E",
+    "flowId": "0",
+    "first": "",
+    "createDate": "2018-07-05 16:08:19"
+  },
+  {
+    "imMsgCnt": "",
+    "image": "/resource/image/ico/tchEnd.gif",
+    "orgName": "组织机构",
+    "isParent": "0",
+    "taster": [{
+      "staffName": "admin",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 09:52:58"
+    }, {
+      "staffName": "admin_2",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 15:59:40"
+    }, {
+      "staffName": "网管系统",
+      "opinion": null,
+      "lastModifyDate": "2018-07-24 17:02:19"
+    }],
+    "receiver": "admin",
+    "isParentShow": "",
+    "tchId": "590000022966",
+    "resultDesc": "同意",
+    "turnInfo": "admin前进到【配置实施人员】",
+    "tchContDesc": "配置实施人员",
+    "doc": [
+      {
+        "attachName": "aaaaaaaaaaaaaaaaaa.sql",
+        "attachAddr": "\\form\\201708\\201778532234231-425.sql",
+        "action": "C"
+      },
+      {
+        "attachName": "增加字段增加字段增加字段增加字段.sql",
+        "attachAddr": "\\form\\201708\\1503969897605_564365833.sql",
+        "action": "C"
+      }
+    ],
+    "receivers": [
+      {
+        "staffName": "admin",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      },{
+        "staffName": "abc",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      }
+    ],
+    "executer": {
+      "staffName": "admin",
+      "phs": "18950330000",
+      "mobile": "12312312312",
+      "tel": "1231231",
+      "orgName": "组织机构",
+      "staffId": null,
+      "staffaName": null,
+      "regionName": "广东"
+    },
+    "disposeDate": "3天3小时3分钟33秒",
+    "finishDate": "2018-07-05 16:08:19",
+    "state": "E",
+    "flowId": "0",
+    "first": "",
+    "createDate": "2018-07-05 16:08:19"
+  },
+  {
+    "imMsgCnt": "",
+    "image": "/resource/image/ico/tchEnd.gif",
+    "orgName": "组织机构",
+    "isParent": "0",
+    "taster": [{
+      "staffName": "admin",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 09:52:58"
+    }, {
+      "staffName": "admin_2",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 15:59:40"
+    }, {
+      "staffName": "网管系统",
+      "opinion": null,
+      "lastModifyDate": "2018-07-24 17:02:19"
+    }],
+    "receiver": "admin",
+    "isParentShow": "",
+    "tchId": "590000022966",
+    "resultDesc": "同意",
+    "turnInfo": "admin前进到【配置实施人员】",
+    "tchContDesc": "配置实施人员",
+    "doc": [
+      {
+        "attachName": "aaaaaaaaaaaaaaaaaa.sql",
+        "attachAddr": "\\form\\201708\\201778532234231-425.sql",
+        "action": "C"
+      },
+      {
+        "attachName": "增加字段增加字段增加字段增加字段.sql",
+        "attachAddr": "\\form\\201708\\1503969897605_564365833.sql",
+        "action": "C"
+      }
+    ],
+    "receivers": [
+      {
+        "staffName": "admin",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      },{
+        "staffName": "abc",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      }
+    ],
+    "executer": {
+      "staffName": "admin",
+      "phs": "18950330000",
+      "mobile": "12312312312",
+      "tel": "1231231",
+      "orgName": "组织机构",
+      "staffId": null,
+      "staffaName": null,
+      "regionName": "广东"
+    },
+    "disposeDate": "3天3小时3分钟33秒",
+    "finishDate": "2018-07-05 16:08:19",
+    "state": "E",
+    "flowId": "0",
+    "first": "",
+    "createDate": "2018-07-05 16:08:19"
+  },
+  {
+    "imMsgCnt": "",
+    "image": "/resource/image/ico/tchEnd.gif",
+    "orgName": "组织机构",
+    "isParent": "0",
+    "taster": [{
+      "staffName": "admin",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 09:52:58"
+    }, {
+      "staffName": "admin_2",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 15:59:40"
+    }, {
+      "staffName": "网管系统",
+      "opinion": null,
+      "lastModifyDate": "2018-07-24 17:02:19"
+    }],
+    "receiver": "admin",
+    "isParentShow": "",
+    "tchId": "590000022966",
+    "resultDesc": "同意",
+    "turnInfo": "admin前进到【配置实施人员】",
+    "tchContDesc": "配置实施人员",
+    "doc": [
+      {
+        "attachName": "aaaaaaaaaaaaaaaaaa.sql",
+        "attachAddr": "\\form\\201708\\201778532234231-425.sql",
+        "action": "C"
+      },
+      {
+        "attachName": "增加字段增加字段增加字段增加字段.sql",
+        "attachAddr": "\\form\\201708\\1503969897605_564365833.sql",
+        "action": "C"
+      }
+    ],
+    "receivers": [
+      {
+        "staffName": "admin",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      },{
+        "staffName": "abc",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      }
+    ],
+    "executer": {
+      "staffName": "admin",
+      "phs": "18950330000",
+      "mobile": "12312312312",
+      "tel": "1231231",
+      "orgName": "组织机构",
+      "staffId": null,
+      "staffaName": null,
+      "regionName": "广东"
+    },
+    "disposeDate": "3天3小时3分钟33秒",
+    "finishDate": "2018-07-05 16:08:19",
+    "state": "E",
+    "flowId": "0",
+    "first": "",
+    "createDate": "2018-07-05 16:08:19"
+  },
+  {
+    "imMsgCnt": "",
+    "image": "/resource/image/ico/tchEnd.gif",
+    "orgName": "组织机构",
+    "isParent": "0",
+    "taster": [{
+      "staffName": "admin",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 09:52:58"
+    }, {
+      "staffName": "admin_2",
+      "opinion": "fsafdsadf",
+      "lastModifyDate": "2018-07-26 15:59:40"
+    }, {
+      "staffName": "网管系统",
+      "opinion": null,
+      "lastModifyDate": "2018-07-24 17:02:19"
+    }],
+    "receiver": "admin",
+    "isParentShow": "",
+    "tchId": "590000022966",
+    "resultDesc": "同意",
+    "turnInfo": "admin前进到【配置实施人员】",
+    "tchContDesc": "配置实施人员",
+    "doc": [
+      {
+        "attachName": "aaaaaaaaaaaaaaaaaa.sql",
+        "attachAddr": "\\form\\201708\\201778532234231-425.sql",
+        "action": "C"
+      },
+      {
+        "attachName": "增加字段增加字段增加字段增加字段.sql",
+        "attachAddr": "\\form\\201708\\1503969897605_564365833.sql",
+        "action": "C"
+      }
+    ],
+    "receivers": [
+      {
+        "staffName": "admin",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      },{
+        "staffName": "abc",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      }
+    ],
+    "executer": {
+      "staffName": "admin",
+      "phs": "18950330000",
+      "mobile": "12312312312",
+      "tel": "1231231",
+      "orgName": "组织机构",
+      "staffId": null,
+      "staffaName": null,
+      "regionName": "广东"
+    },
+    "disposeDate": "3天3小时3分钟33秒",
+    "finishDate": "2018-07-05 16:08:19",
+    "state": "E",
+    "flowId": "0",
+    "first": "",
+    "createDate": "2018-07-05 16:08:19"
+  },
+  {
+    "imMsgCnt": "",
+    "image": "/resource/image/ico/tchEnd.gif",
+    "orgName": "组织机构",
+    "isParent": "0",
+    "taster": [],
+    "receiver": "admin",
+    "isParentShow": "",
+    "tchId": "590000022966",
+    "resultDesc": "同意",
+    "turnInfo": "admin前进到【配置实施人员】",
+    "tchContDesc": "配置实施人员",
+    "doc": [],
+    "receivers": [
+      {
+        "staffName": "admin",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      },{
+        "staffName": "abc",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      }
+    ],
+    "executer": {
+      "staffName": "admin",
+      "phs": "18950330000",
+      "mobile": "12312312312",
+      "tel": "1231231",
+      "orgName": "组织机构",
+      "staffId": null,
+      "staffaName": null,
+      "regionName": "广东"
+    },
+    "disposeDate": "3天3小时3分钟33秒",
+    "finishDate": "2018-07-05 16:08:19",
+    "state": "E",
+    "flowId": "0",
+    "first": "",
+    "createDate": "2018-07-05 16:08:19"
+  },
+  {
+    "imMsgCnt": "",
+    "image": "/resource/image/ico/tchEnd.gif",
+    "orgName": "组织机构",
+    "isParent": "0",
+    "taster": [{
+      "staffName": "admin",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 09:52:58"
+    }, {
+      "staffName": "admin_2",
+      "opinion": null,
+      "lastModifyDate": "2018-07-26 15:59:40"
+    }, {
+      "staffName": "网管系统",
+      "opinion": null,
+      "lastModifyDate": "2018-07-24 17:02:19"
+    }],
+    "receiver": "admin",
+    "isParentShow": "",
+    "tchId": "590000022966",
+    "resultDesc": "同意",
+    "turnInfo": "admin前进到【配置实施人员】",
+    "tchContDesc": "配置实施人员",
+    "doc": [
+      {
+        "attachName": "aaa.sql",
+        "attachAddr": "\\form\\201708\\201778532234231-425.sql",
+        "action": "C"
+      },
+      {
+        "attachName": "增加字段.sql",
+        "attachAddr": "\\form\\201708\\1503969897605_564365833.sql",
+        "action": "C"
+      }
+    ],
+    "receivers": [
+      {
+        "staffName": "admin",
+        "phs": "18950330000",
+        "mobile": "12312312312",
+        "tel": "1231231",
+        "orgName": "组织机构",
+        "staffId": null,
+        "staffaName": null,
+        "regionName": "广东"
+      }
+    ],
+    "executer": {},
+    "disposeDate": "3天3小时3分钟33秒",
+    "finishDate": "2018-07-05 16:08:19",
+    "state": "C",
+    "flowId": "0",
+    "first": "",
+    "createDate": "2018-07-05 16:08:19"
+  }
+]

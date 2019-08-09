@@ -1,0 +1,42 @@
+{
+  "subType": "xx",
+  "staffXML": {
+    "REGION_ID": 28,
+    "ORGID": 2622,
+    "STAFF_ID": 1,
+    "ORGNAME": "ITM部",
+    "USER_NAME": "admin",
+    "EMAIL": "admin@sctel.com.cn",
+    "STAFFNAME": "admin",
+    "ADDRESS": null,
+    "PHS": "18113056391",
+    "TEL": "18113056391",
+    "FAX": null,
+    "ID_CARD": null,
+    "MOBILE": "18113056391"
+  },
+  "oXML": [
+    {
+      "NAME": "【预生成】红红测试哦.pdf",
+      "PATH": "http://10.23.31.4/upload/upload///form/201807/1533031327929_1149293400.pdf"
+    },
+    {
+      "NAME": "【预生成】红红测试哦.pdf",
+      "PATH": "http://10.23.31.4/upload/upload///form/201808/1533088950376_-1874278462.pdf"
+    },
+    {
+      "NAME": "【预生成】红红测试哦.pdf",
+      "PATH": "http://10.23.31.4/upload/upload//\\form\\201808\\1533086480058_-1894660926.pdf"
+    },
+    {
+      "NAME": "【预生成】红红测试哦.pdf",
+      "PATH": "http://10.23.31.4/upload/upload///form/201808/1533088647501_-569551108.pdf"
+    },
+    {
+      "NAME": "（红红测试哦）.pdf",
+      "PATH": "http://10.23.31.4/upload/upload///form/201808/1533089013944_1596706325.pdf"
+    }
+  ],
+  "parentType": "xxx",
+  "itsmReq": 11
+}

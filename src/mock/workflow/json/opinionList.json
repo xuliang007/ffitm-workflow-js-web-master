@@ -1,0 +1,41 @@
+[{
+    "opinionType": "STAFF",
+    "opinionTypeName": "所有流程",
+    "msgId": "62",
+    "opinionContent": "不同意",
+    "cfgid": "0",
+    "staffId": "1"
+  },
+  {
+    "opinionType": "STAFF",
+    "opinionTypeName": "所有流程",
+    "msgId": "121",
+    "opinionContent": "同意123",
+    "cfgid": "0",
+    "staffId": "1"
+  },
+  {
+    "opinionType": "STAFF",
+    "opinionTypeName": "所有流程",
+    "msgId": "292",
+    "opinionContent": "测试",
+    "cfgid": "0",
+    "staffId": "1"
+  },
+  {
+    "opinionType": "STAFF",
+    "opinionTypeName": "所有流程",
+    "msgId": "301",
+    "opinionContent": "同意",
+    "cfgid": "0",
+    "staffId": "1"
+  },
+  {
+    "opinionType": "STAFF",
+    "opinionTypeName": "所有流程",
+    "msgId": "302",
+    "opinionContent": "select s.result_desc from tache s where length(s.result_desc) >256; select t.con_content from tache_content_msg t where length(t.con_content) > 256; 匡总帮忙查下你们生产",
+    "cfgid": "0",
+    "staffId": "1"
+  }
+]

@@ -1,0 +1,58 @@
+[{
+    "id": 0,
+    "name": "组织机构",
+    "searchType": "ORG",
+    "pid": -1,
+    "isParent": true,
+    "open": true
+  },
+  {
+    "id": 67,
+    "name": "组织信息1",
+    "searchType": "ORG",
+    "pid": 0,
+    "isParent": true
+  },
+  {
+    "id": 100,
+    "name": "省公司本部",
+    "searchType": "ORG",
+    "pid": 0,
+    "isParent": true
+  },
+  {
+    "id": 362,
+    "name": "组织Test第二级",
+    "searchType": "ORG",
+    "pid": 0,
+    "isParent": false
+  },
+  {
+    "id": 530,
+    "name": "测试部门",
+    "searchType": "ORG",
+    "pid": 0,
+    "isParent": true
+  },
+  {
+    "id": 563,
+    "name": "登云新增组织1",
+    "searchType": "ORG",
+    "pid": 0,
+    "isParent": true
+  },
+  {
+    "id": 582,
+    "name": "厂商",
+    "searchType": "ORG",
+    "pid": 0,
+    "isParent": true
+  },
+  {
+    "id": 646,
+    "name": "省直机关纪工委",
+    "searchType": "ORG",
+    "pid": 0,
+    "isParent": false
+  }
+]

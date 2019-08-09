@@ -1,0 +1,44 @@
+@import "var";
+@import "~ffitm-vue-ui/packages/theme-chalk/src/overview.scss";
+
+body {
+  overflow: auto !important;
+  background-color: $--wf-background-color;
+  color: $--wf-text-color;
+  font-size: $--wf-font-size;
+  .fi-collapse-card{
+    .el-card__header{
+      padding: 5px 26px 8px 10px;
+    }
+    .fi-collapse-card__body{
+      padding: 0 20px 10px 20px;
+    }
+  }
+  .form-label-regular{
+    .fi-collapse-card__body{
+      padding: 0 20px 10px 0px;
+    }
+  }
+  .fi-workflow-form {
+    .el-checkbox {
+      margin-right: 0px !important;
+    }
+  }
+  .work-order__box {
+  }
+  .block-main {
+    .el-form-item__label{
+      width: 103px !important;
+    }
+    .el-form-item__content {
+      margin-left: 103px !important;
+    }
+  }
+  .fi-workflow-dialog__attach {
+    .el-upload-list {
+      line-height: 32px;
+    }
+  }
+}
+
+

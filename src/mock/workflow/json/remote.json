@@ -1,0 +1,87 @@
+﻿{
+    "result": {
+        "code": "0",
+        "msg": "成功",
+        "remoteMap": {
+            "title": "关于流量包退订失效状态时间调整改造的通知",
+            "state": "2",
+            "createTime": "2019-03-22 14:26:24",
+            "currentStateTime": "2019-03-22 14:26:24",
+            "cerator": {
+                "name": "史萌",
+                "department": "233",
+                "email": "shimeng@chinatelecom.cn",
+                "mobile": "18910119113",
+                "telephone": "01058501619"
+            },
+            "processor": [
+                {
+                    "name": "龙海涛",
+                    "department": "2",
+                    "email": "hn_ywjsjlht@chinatelecom.cn",
+                    "mobile": "13308404843",
+                    "telephone": "070000000000"
+                }
+            ]
+        },
+        "localMap": {
+            "cerator": {
+                "name": "史萌",
+                "department": "233",
+                "email": "shimeng@chinatelecom.cn",
+                "mobile": "18910119113",
+                "telephone": "01058501619"
+            },
+            "createTime": "2019-03-22 08:58:32.0",
+            "processor": [
+                {
+                    "name": "吴燕,龙海涛",
+                    "department": "2,34",
+                    "email": "hn_ywjsjwy@chinatelecom.cn,hn_ywjsjlht@chinatelecom.cn",
+                    "mobile": "13348615939,13308404843",
+                    "telephone": "073184718101,07315149547"
+                }
+            ],
+            "title": "关于流量包退订失效状态时间调整改造的通知",
+            "state": "3",
+            "currentStateTime": "2019-03-22 14:26:13.0"
+        },
+        "tacheList": [
+            {
+                "tacheName": "创单",
+                "processor": "史萌",
+                "resultDesc": "已创建任务单",
+                "createDate": "2019-03-22 14:26:22",
+                "finishDate": "2019-03-22 14:26:22",
+                "currentState": "已竣工",
+                "type": "开始环节",
+                "affixList": [
+                    {
+                        "attachName": "测试文档.doc",
+                        "name": "史萌",
+                        "url": "http://10.128.91.107:7001/downloadservlet?action=1&filename=%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3.doc&fullPath=/upload/upload//flow/201903/1553244265943_-505613188.doc",
+                        "size": "149256",
+                        "time": "2019-03-22 14:25:0"
+                    },
+                    {
+                        "attachName": "测试文档2.doc",
+                        "name": "史萌",
+                        "url": "http://10.128.91.107:7001/downloadservlet?action=1&filename=%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3.doc&fullPath=/upload/upload//flow/201903/1553244265943_-505613188.doc",
+                        "size": "149256",
+                        "time": "2019-03-22 14:25:0"
+                    }
+                ]
+            },
+            {
+                "tacheName": "接收确认",
+                "processor": "龙海涛",
+                "resultDesc": "任务单已接收",
+                "createDate": "2019-03-22 14:26:22",
+                "finishDate": "2019-03-22 14:26:24",
+                "currentState": "已竣工",
+                "type": "确认环节",
+                "affixList": [ ]
+            }
+        ]
+    }
+}

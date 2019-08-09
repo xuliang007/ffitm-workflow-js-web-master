@@ -1,0 +1,844 @@
+{"tache": {
+    "nextTchMods": [
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BT",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": "sc_pkp_event_config.GetCityITRootOrgId($TABLE.CUST_ZJ_DECLARATION.APPLY_ID.VALUE)",
+        "rootOrgCanChange": "0BF",
+        "tchName": "市IT服务台",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "11880;14176;14916;11881;12095;",
+        "onCreateType": null,
+        "rootOrgType": "sqlFunc",
+        "defaultStaffType": "sqlFunc",
+        "conTchClosed": "1",
+        "onAfterCreate": "SC_PKP_FORM_CONFIG_TEMP.updateEventMessage($FLOW.FLOW_ID,$FLOW.TCH_MOD,'')",
+        "defaultStaffValue": "SC_PKP_EVENT_CONFIG.GetDefalutProjectGroupUserList($TABLE.CUST_ZJ_DECLARATION.APPLY_REGION_ID.VALUE)",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": "sqlProc",
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BF",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BT",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "11879",
+        "canSerial": "0BF",
+        "tchMod": "15687",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BT",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": "sc_pkp_event_config.GetCityITOneRootOrgId()",
+        "rootOrgCanChange": "0BF",
+        "tchName": "省IT服务台",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "11877;11879;14176;14916;11881;12095;",
+        "onCreateType": null,
+        "rootOrgType": "sqlFunc",
+        "defaultStaffType": "sqlFunc",
+        "conTchClosed": "1",
+        "onAfterCreate": null,
+        "defaultStaffValue": "sc_pkp_event_config.getDutyTchUser('run', '$TABLE.CUST_ZJ_DECLARATION.PHENOMENON_SUB_TYPE.DEFAULT_VALUE', '$TABLE.CUST_ZJ_DECLARATION.PHENOMENON_SUB_TYPE.VALUE', $TABLE.CUST_ZJ_DECLARATION.SUBMIT_STAFF_ID.VALUE, $FLOW.FLOW_ID, 11880)",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": null,
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BF",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BT",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "11880",
+        "canSerial": "0BF",
+        "tchMod": "15689",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BT",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": "sc_pkp_event_config.GetCityITOneRootOrgId()",
+        "rootOrgCanChange": "0BF",
+        "tchName": "省IT专业组",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "11880;11879;14916;12095;",
+        "onCreateType": null,
+        "rootOrgType": "sqlFunc",
+        "defaultStaffType": "sqlFunc",
+        "conTchClosed": "1",
+        "onAfterCreate": "SC_PKP_FORM_CONFIG_TEMP.updateEventMessage($FLOW.FLOW_ID,$FLOW.TCH_MOD,'')",
+        "defaultStaffValue": "SC_PKP_TF_EVENT_CONFIG.getStaffId_11881($FLOW.FLOW_ID,'$TABLE.CUST_ZJ_DECLARATION.BUSINESS_TYPE.VALUE')",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": "sqlProc",
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BF",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BF",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "11881",
+        "canSerial": "0BF",
+        "tchMod": "15694",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": null,
+        "rootOrgCanChange": "0BT",
+        "tchName": "工单处理",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "11880;11879;11881;15356;15357;15358;15359;12095;",
+        "onCreateType": null,
+        "rootOrgType": "fix",
+        "defaultStaffType": "fix",
+        "conTchClosed": "1",
+        "onAfterCreate": null,
+        "defaultStaffValue": null,
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": null,
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "2",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BF",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "14916",
+        "canSerial": "0BF",
+        "tchMod": "15691",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BT",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": "sc_pkp_event_config.GetCityITRootOrgId($TABLE.CUST_ZJ_DECLARATION.APPLY_ID.VALUE)",
+        "rootOrgCanChange": "0BF",
+        "tchName": "市级处理（专项小组）",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "11879;11880;11881;14916;15356;15357;15358;15359;",
+        "onCreateType": null,
+        "rootOrgType": "sqlFunc",
+        "defaultStaffType": "sqlFunc",
+        "conTchClosed": "1",
+        "onAfterCreate": null,
+        "defaultStaffValue": "SC_PKP_EVENT_CONFIG.DefalutProjectGroupUserListNj($TABLE.CUST_ZJ_DECLARATION.APPLY_REGION_ID.VALUE)",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": null,
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BF",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BF",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "12095",
+        "canSerial": "0BF",
+        "tchMod": "15686",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": null,
+        "rootOrgCanChange": "0BT",
+        "tchName": "资源中心",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "14916;12095;",
+        "onCreateType": null,
+        "rootOrgType": "fix",
+        "defaultStaffType": "sqlFunc",
+        "conTchClosed": "1",
+        "onAfterCreate": null,
+        "defaultStaffValue": "sc_pkp_event_config.DefalutProjectUser($TABLE.CUST_ZJ_DECLARATION.APPLY_REGION_ID.VALUE,$FLOW.TCH_MOD)",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": null,
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BF",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "15357",
+        "canSerial": "0BF",
+        "tchMod": "15681",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": null,
+        "rootOrgCanChange": "0BT",
+        "tchName": "业管中心",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "14916;12095;",
+        "onCreateType": null,
+        "rootOrgType": "fix",
+        "defaultStaffType": "sqlFunc",
+        "conTchClosed": "1",
+        "onAfterCreate": null,
+        "defaultStaffValue": "sc_pkp_event_config.DefalutProjectUser($TABLE.CUST_ZJ_DECLARATION.APPLY_REGION_ID.VALUE,$FLOW.TCH_MOD)",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": null,
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BF",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "15358",
+        "canSerial": "0BF",
+        "tchMod": "15680",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": null,
+        "rootOrgCanChange": "0BT",
+        "tchName": "IT中心",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "14916;12095;",
+        "onCreateType": null,
+        "rootOrgType": "fix",
+        "defaultStaffType": "sqlFunc",
+        "conTchClosed": "1",
+        "onAfterCreate": null,
+        "defaultStaffValue": "sc_pkp_event_config.DefalutProjectUser($TABLE.CUST_ZJ_DECLARATION.APPLY_REGION_ID.VALUE,$FLOW.TCH_MOD)",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": null,
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BF",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "15359",
+        "canSerial": "0BF",
+        "tchMod": "15685",
+        "often": []
+      },
+      {
+        "notifyCfg": {
+          "sms": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          },
+          "mail": {
+            "display": true,
+            "selected": false,
+            "canChange": true
+          }
+        },
+        "smsJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onBeforeCreate": null,
+        "notifyRootOrgValue": null,
+        "defaultStaffNameValue": null,
+        "multiInst": "0",
+        "tchType": "3",
+        "multiType": null,
+        "filterStaffWhere": null,
+        "notifyStaffDisabled": "0BF",
+        "rootOrgValue": null,
+        "rootOrgCanChange": "0BT",
+        "tchName": "政企服务台",
+        "notifyStaffCanChange": "0BT",
+        "excludePath": "14916;12095;",
+        "onCreateType": null,
+        "rootOrgType": "fix",
+        "defaultStaffType": "fix",
+        "conTchClosed": "1",
+        "onAfterCreate": null,
+        "defaultStaffValue": "15276",
+        "notifyStaffType": null,
+        "actionTransferTitle": "转交",
+        "actionRunTitle": "前进到:【%TCH_NAME%】环节",
+        "multiInstMerge": "0",
+        "remark": null,
+        "beginOrgValue": null,
+        "beginOrgType": "fix",
+        "onAfterCreateType": null,
+        "actionBackTitle": "回退到:【%TCH_NAME%】环节",
+        "isAuto": "0BF",
+        "staffCreateType": "3",
+        "notifyStaffValue": null,
+        "notifyStaffSelected": "0BT",
+        "notifyStaffCreateType": "2",
+        "mailJson": {
+          "display": "0BT",
+          "selected": "0BF",
+          "canChange": "0BT"
+        },
+        "onCreate": null,
+        "countersignCfg": {
+          "text": "会签方式:",
+          "display": false,
+          "parallel": {
+            "checked": true,
+            "text": "并行",
+            "display": false
+          },
+          "serial": {
+            "checked": true,
+            "text": "串行",
+            "display": false
+          }
+        },
+        "tacheAction": "run",
+        "onBeforeCreateType": null,
+        "defaultStaffDisabled": "0BF",
+        "defaultStaffSelected": "0BT",
+        "notifyRootOrgCanChange": "0BT",
+        "rootOrgParam": null,
+        "notifyRootOrgType": "fix",
+        "defaultStaffCanChange": "0BT",
+        "tchNum": "15356",
+        "canSerial": "0BF",
+        "tchMod": "15682",
+        "often": []
+      }
+    ],
+    "onBeforeFinish": null,
+    "multiInstMerge": null,
+    "globalDefaultStaffCfg": null,
+    "flowWinCfg": null,
+    "nextTchsCanChange": "0BF",
+    "defaultOpinionValue": "请处理。",
+    "isAuto": "0",
+    "defaultFlowNameType": null,
+    "flowValidateMode": {
+      "run": true,
+      "end": true,
+      "return": true,
+      "transfer": true,
+      "endTask": true,
+      "all": true
+    },
+    "isEndTaskAuto": "0BF",
+    "endTaskTitle": "结束会签",
+    "layerStyle": {
+      "fullScreen": "0",
+      "width": "800",
+      "height": "600"
+    },
+    "isTacheEditable": "0BT",
+    "onAfterFinishType": "sqlProc",
+    "defaultOpinionType": "form",
+    "serialState": "none",
+    "defaultFlowNameValue": null,
+    "onBeforeFinishType": null,
+    "onFinishType": null,
+    "onFinish": null,
+    "execDesc": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对发起人发起的障碍提交至服务台处理。如果是本地网提交，先流转至本地网服务台处理。",
+    "opinion": null,
+    "opinionType": "SO",
+    "nextTchsValue": "SC_PKP_TF_EVENT_CONFIG.getNextTch_11876($TABLE.CUST_ZJ_DECLARATION.SUBMIT_STAFF_ID.VALUE,$TABLE.CUST_ZJ_DECLARATION.SYSTEM_ID.VALUE,'$TABLE.CUST_ZJ_DECLARATION.BUSINESS_TYPE.VALUE')",
+    "nextTchsIsHiddenOther": "0BT",
+    "onAfterFinish": "SC_PKP_FORM_CONFIG_TEMP.updateEventMessage($FLOW.FLOW_ID,$FLOW.TCH_MOD,'$TABLE.CUST_ZJ_DECLARATION.TITLE.VALUE')",
+    "sysFlowWinCfg": {
+      "model": "layer",
+      "showSaveSucceed": false,
+      "showFlowName": true,
+      "showAttach": true
+    },
+    "nextTchsType": "sqlFunc",
+    "nextTchsIsSelected": "0BT"
+  },
+  "opinion": [
+    {
+      "id": "62",
+      "opinionContent": "不同意"
+    },
+    {
+      "id": "121",
+      "opinionContent": "同意123"
+    },
+    {
+      "id": "292",
+      "opinionContent": "测试"
+    },
+    {
+      "id": "301",
+      "opinionContent": "同意"
+    },
+    {
+      "id": "302",
+      "opinionContent": "神奇的ajax"
+    },
+    {
+      "id": "326",
+      "opinionContent": "321"
+    },
+    {
+      "id": "341",
+      "opinionContent": "神奇的ajaxqwe"
+    },
+    {
+      "id": "342",
+      "opinionContent": "xxh"
+    },
+    {
+      "id": "381",
+      "opinionContent": "你好"
+    }
+  ]
+}
